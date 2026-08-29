@@ -1,0 +1,30 @@
+NAVOD - Ostrov ARK (jednoducha Java konzolova hra)
+====================================================
+
+1. Otevri IntelliJ IDEA.
+2. File -> New -> Project... -> zvol "Java", vyber si nainstalovane JDK -> Create.
+   (IntelliJ ti rovnou vytvori slozku "src" uvnitr projektu.)
+3. Rozbal tento zip soubor kdekoliv na disku.
+4. Vsech 11 souboru s priponou .java zkopiruj (napr. v Pruzkumniku / Finderu)
+   primo do slozky "src" tveho noveho projektu.
+   - Nejjednodussi je slozku "src" v IntelliJ (v levem panelu "Project")
+     najit pravym klikem -> "Open In" -> "Explorer" (nebo "Reveal in Finder"),
+     a soubory tam prekopirovat.
+5. Vrat se do IntelliJ. Pokud se nove soubory hned nezobrazi, klikni pravym
+   na "src" -> "Reload from Disk" (nebo projekt zavri a znovu otevri).
+6. Klikni pravym na soubor Main.java -> "Run 'Main.main()'".
+7. Hra bezi v okne "Run" dole - piš cisla voleb (1-8) a Enter.
+
+Cil hry: preziij na ostrove a hlavne - ochoc legendarniho SPINOSAURA!
+Zadne externi knihovny nejsou potreba, staci obycejne JDK 8 nebo novejsi
+(cely projekt jsem otestoval na JDK 21).
+
+Soubory:
+Main.java         - spousti hru
+GameEngine.java   - hlavni logika hry (menu, souboje, ochocovani)
+Player.java       - postava hrace (zdravi, hlad, zizen, stamina)
+Inventory.java    - inventar
+ItemType.java     - seznam surovin/predmetu
+Dinosaur.java     - zakladni trida pro dinosaury
+Dodo.java, Velociraptor.java, Triceratops.java, TRex.java, Spinosaurus.java
+                  - jednotlive druhy dinosauru

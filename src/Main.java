@@ -1,5 +1,7 @@
+// Vstupni bod aplikace - spusti hru "Ostrov ARK"
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        GameEngine hra = new GameEngine();
+        hra.spustit();
     }
 }
